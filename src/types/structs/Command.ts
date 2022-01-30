@@ -1,5 +1,4 @@
-import {CommandType, SlashCommandType} from "../types/commands";
-
+import {CommandType, SlashCommandType} from "../commands";
 
 export class Command {
     constructor(commandOptions: CommandType) {

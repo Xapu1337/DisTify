@@ -1,10 +1,11 @@
 import {Collection} from "discord.js";
 
 interface ArrayCollection {
-    [key: string]: Collection<any, any>
+    [key: string]: Collection
 }
 
 interface CommandArrayCollection {
-    ["MESSAGES"]: Collection<string, any>,
-    ["SLASH"]: Collection<string, any>
+    ["MESSAGES"]: Collection,
+    ["SLASH"]: Collection
 }
+

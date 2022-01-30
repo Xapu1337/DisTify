@@ -5,7 +5,8 @@ import {
     PermissionResolvable,
 } from "discord.js";
 import {SlashCommandBuilder} from "@discordjs/builders";
-import DisTifyClient from "../structs/DisTifyClient";
+import DisTifyClient from "./structs/DisTifyClient";
+
 /**
  * {
  *  name: "commandname",
